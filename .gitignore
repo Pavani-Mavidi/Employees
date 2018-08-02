@@ -5,3 +5,4 @@
 gradlew
 build.gradle
 settings.gradle
+/.gradle/
