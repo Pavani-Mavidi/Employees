@@ -8,7 +8,7 @@ pipeline {
            }
            stage('Run'){
                steps{
-                bat 'java -jar build\libs\Employees.jar'
+                bat 'java -jar "build/libs/Employees.jar"'
             } 
            }
     }
