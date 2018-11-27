@@ -9,6 +9,7 @@ pipeline {
 		stage('Say Hi') {
             steps {
                 echo "${params.Greeting} World!"
+                echo env.GIT_COMMIT
             }
         }
         stage('Build') {
